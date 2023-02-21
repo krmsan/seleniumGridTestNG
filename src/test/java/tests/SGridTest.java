@@ -29,7 +29,7 @@ WebDriver dr=remoteDriverChromeOptions();
     @Test
     public void test01(){
 
-        dr.get("https://www.amazon.com");//static method olarak getirdik
+        dr.get("https://www.amazon.com");//remoteDriverChromeOptions()  => static method olarak getirdik
 
         System.out.println("Url = " + dr.getCurrentUrl());
 
